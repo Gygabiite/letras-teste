@@ -21,3 +21,4 @@ for palavra in entradaSplit:
         resposta += palavra + " "
 
 print(resposta)
+
