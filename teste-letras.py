@@ -1,3 +1,5 @@
+import sys
+
 entrada = str(input())
 
 entradaSplit = entrada.split(" ")
