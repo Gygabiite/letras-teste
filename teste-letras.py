@@ -8,9 +8,11 @@ class Teste:
         for palavra in entradaSplit:
             temp = ""
             temp2 = ""
-            for letra in palavra:
+            for letra in reversed(palavra):
                 if letra in temp and letra not in temp2:
                     temp2 += letra
+                    if temp2 == temp:
+                        break
                 else:
                     temp += letra
             
