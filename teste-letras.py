@@ -39,6 +39,7 @@ teste2 = Teste("banana")
 teste3 = Teste("a bananeira tem banana")
 teste4 = Teste("saarara temem duas bolass")
 teste5 = Teste("araraara")
+casoTeste = Teste(str(input("Digite o texto: ")))
 
 #Chamando o método de desduplicação e mostrando o resultado
 print(teste1.desDuplicar())
@@ -46,3 +47,4 @@ print(teste2.desDuplicar())
 print(teste3.desDuplicar())
 print(teste4.desDuplicar())
 print(teste5.desDuplicar())
+print(casoTeste.desDuplicar())
